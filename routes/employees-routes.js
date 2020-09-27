@@ -35,7 +35,7 @@ router.use(checkAuth);
 /* GET api i.e /api/employees/ to get all the employees of manager */
 router.get('/', employeeControllers.getEmployees);
 
-/* POST api i.e /api/managers/ to create employee */
+/* POST api i.e /api/employees/ to create employee */
 router.post(
     '/',
     reqValidators,

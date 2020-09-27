@@ -59,7 +59,6 @@ employeeSchema.pre('save', function (next) {
                 next();
             })
             .catch(function (error) {
-                console.error("counter error-> : " + error);
                 throw error;
             });
     }

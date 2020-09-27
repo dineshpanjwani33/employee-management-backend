@@ -55,5 +55,5 @@ mongoose
         app.listen( process.env.PORT || 5001);
     })
     .catch(error => {
-        console.log(error);
+        logger.error(error.message);
     })
