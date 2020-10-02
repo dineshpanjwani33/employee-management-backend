@@ -23,7 +23,7 @@ Like for signup http://localhost:5001/api/managers/signup
 * Manager Signup (POST /managers/signup)
 	* It insert manager details in Manager collection.
 	* It ensures manager document should be unique based on email.
-* Manager Login (POST /managers/signup)
+* Manager Login (POST /managers/login)
 	* Logged in to manager based on email and password.
 * Create Employee (POST /employees/):
 	* Creates an Employee document in Employee Collection
